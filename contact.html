@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+  (function() {
+    const theme = localStorage.getItem('theme');
+    if (theme) {
+      document.documentElement.classList.add(theme);
+    } else {
+      document.documentElement.classList.add('light-theme');
+    }
+  })();
+</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Me - Bisrat Mulatu</title>
+  <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="contact.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body class="contact-page light-theme">
+  <div id="header-placeholder"></div>
+
+  <main class="container">
+    <h1>Contact Me</h1>
+    <div class="contact-info">
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:bisratmulatu00@gmail.com">bisratmulatu00@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+251976555989">+251 976 555 989</a>
+      </div>
+      <div class="contact-item">
+        <i class="fa-brands fa-telegram"></i>
+        <a href="https://t.me/bisre_12" target="_blank" rel="noopener">bisre_12 (Telegram)</a>
+      </div>
+      <div class="contact-item">
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/bisrat0317" target="_blank" rel="noopener">github.com/bisrat0317</a>
+      </div>
+      <div class="contact-item">
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://linkedin.com/in/bisrat-mulatu-746a69226" target="_blank" rel="noopener">linkedin.com/in/bisrat-mulatu-746a69226</a>
+      </div>
+    </div>
+  </main>
+
+  
+    
+  <script src="script.js"></script>
+</body>
+</html>

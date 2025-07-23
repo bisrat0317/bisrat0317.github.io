@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+  (function() {
+    const theme = localStorage.getItem('theme');
+    if (theme) {
+      document.documentElement.classList.add(theme);
+    } else {
+      document.documentElement.classList.add('light-theme');
+    }
+  })();
+</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me - Bisrat Mulatu</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="about_me.css" />
+   <link rel="stylesheet" href="header.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="about-me">
+  <div id="header-placeholder"></div>
+  <div class="container">
+    <div class="section" id="about">
+      <h1>About Me</h1>
+      <p><span class="highlight">Bisrat Mulatu</span> is a passionate and driven IT graduate from Hawassa University, having graduated in June 2025 with <strong>Distinction</strong> (CGPA 3.53). I am committed to simplifying complex challenges through creative, user-centered technology solutions. With a strong interest in web system development and real-world problem-solving, I aspire to contribute to impactful digital transformation in my community and beyond.</p>
+    </div>
+    <div class="section" id="education">
+      <h2>Education</h2>
+      <p><strong>BSc in Information Technology</strong><br>Hawassa University<br>May 16, 2022 – June 24, 2025<br>Graduated with Distinction – CGPA: 3.53 | EQF Level 6</p>
+    </div>
+    <div class="section" id="internship">
+      <h2>Internship Experience</h2>
+      <p>
+        <strong>Organization:</strong> Ethiopia Construction Works Corporation (ECWC)<br>
+        <strong>Department:</strong> IT Department<br>
+        <strong>Duration:</strong> July 10 – September 10, 2024<br>
+        <strong>Focus:</strong>
+        <ul>
+          <li>Customized and enhanced ICT support system features to improve user experience.</li>
+          <li>Conducted interviews and discussions with users from various departments to identify system limitations, errors, and feature gaps.</li>
+          <li>Reviewed and analyzed the system’s source code and database structure to understand the logic behind existing functionalities.</li>
+          <li>Conducted system testing and gathered feedback from multiple user roles.</li>
+          <li>Actively participated in modifying and adding new features to the existing system.</li>
+          <li>Gained experience in PHP, database integration, and system design.</li>
+          <li>Ensured that newly developed components matched the user requirements.</li>
+          <li>Conducted internal testing and coordinated with end-users to validate the new features and fixes.</li>
+          <li>Worked on fixing bugs and fine-tuning the system based on user feedback.</li>
+        </ul>
+      </p>
+    </div>
+    <div class="section" id="resume">
+      <h2>Resume</h2>
+      <a class="btn-cv" href="assets/Bisrat_Mulatu_Resume.pdf" download>Download CV</a>
+    </div>
+    <div class="section" id="online">
+      <h2>Find Me Online</h2>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/bisrat-mulatu-746a69226" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/bisrat0317" target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+         <a href="https://t.me/bisre_12" target="_blank" aria-label="Telegram">
+      <i class="fa-brands fa-telegram"></i>
+    </a>
+    <a href="mailto: bisratmulatu00@gmail.com" target="_blank" aria-label="Email">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

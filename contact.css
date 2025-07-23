@@ -1,0 +1,88 @@
+body.contact-page {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #222;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  max-width: 500px;  /* about half typical desktop width */
+  margin: 40px auto; /* center horizontally, with vertical spacing */
+  padding: 0 20px;   /* horizontal padding for small screens */
+}
+
+.site-header {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #1976d2;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-item {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background-color: #e3f2fd;
+  box-shadow:
+    0 2px 6px rgb(25 118 210 / 0.2);
+  transition: background-color 0.3s;
+}
+
+.contact-item i {
+  color: #1976d2;
+  font-size: 2rem;
+  min-width: 30px;
+  text-align: center;
+}
+
+.contact-item a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+  color: #004d40;
+}
+
+/* Dark mode */
+body.dark-theme.contact-page {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-theme.contact-page .contact-info {
+  /* keep flex styling */
+}
+
+body.dark-theme.contact-page .contact-item {
+  background-color: #263238;
+  box-shadow:
+    0 2px 6px rgb(0 139 139 / 0.4);
+}
+
+body.dark-theme.contact-page .contact-item i,
+body.dark-theme.contact-page .contact-item a {
+  color: #80cbc4;
+}
+
+body.dark-theme.contact-page .contact-item a:hover {
+  color: #26a69a;
+}

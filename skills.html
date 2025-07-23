@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills & Certifications</title>
+  <link rel="stylesheet" href="skills.css" />
+  <link rel="stylesheet" href="header.css" />
+</head>
+<body>
+    <div id="header-placeholder"></div> 
+    <script>
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header-placeholder').innerHTML = data;
+    });
+</script>
+  <div class="container">
+    <h1>My Skills & Certifications</h1>
+
+    <!-- Programming Skills -->
+    <h2>Technical Skills</h2>
+    <div class="skill-bars">
+      <div class="skill">
+        <div class="skill-title">Python</div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--width: 60%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-title">PHP</div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--width: 85%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-title">C/C++</div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--width: 90%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-title">Java</div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--width: 75%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-title">HTML/CSS</div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--width: 90%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-title">MS SQL Server</div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--width: 80%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-title">ICT Networking & Hardware</div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--width: 70%;"></div></div>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <h2>Tools & Software</h2>
+    <div class="tool-tiles">
+      <div class="tool-tile">Microsoft Office</div>
+      <div class="tool-tile">Google Docs</div>
+      <div class="tool-tile">Microsoft Word</div>
+      <div class="tool-tile">PowerPoint</div>
+      <div class="tool-tile">Excel</div>
+      <div class="tool-tile">Social Media</div>
+    </div>
+
+    <!-- Soft Skills -->
+    <h2>Soft & Personal Skills</h2>
+    <div class="soft-skills">
+      <span>Team-work Oriented</span>
+      <span>Decision Making</span>
+      <span>Good Listener & Communicator</span>
+      <span>Organizational & Planning</span>
+      <span>Time Management</span>
+      <span>Critical Thinking</span>
+      <span>Motivated</span>
+    </div>
+
+    <!-- Certifications -->
+    <h2>Certifications</h2>
+    <div class="certification-card">
+      ✅ Verified Certificate of Nanodegree Program Completion – Programming Fundamentals (Udacity)
+    </div>
+
+    <!-- Language Skills -->
+    <h2>Languages</h2>
+    <div class="language-chart">
+      <!-- Add JS/Chart here if needed -->
+      <p><strong>Mother Tongue:</strong> Amharic</p>
+      <p><strong>English:</strong> Listening B2 | Reading B2 | Writing B2 | Spoken Production B1 | Spoken Interaction B1</p>
+      <small>Levels: A1/A2 = Basic | B1/B2 = Independent | C1/C2 = Proficient</small>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
